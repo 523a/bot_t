@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Основной DOCTYPE html — dtst.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ <body>
+ 
+  <h1>Бот1 "Дончин"</h1>
+  <h4> параметры {{par4}}  {{par2}}</h4>
+  <h2>Настраиваемые параметры</h2>
+  
+  <form method="POST" action="">
+    <p>
+      <label>API_ключ </label>
+      <input name="api_key" type="text" value={{api_key}}>
+    </p>
+    <p>
+      <label>Ключ secr</label>
+      <input name="api_secret" type="text" value={{api_secret}}>
+    </p>
+    <p>
+      <label>SYMBOL_</label>
+      <input name="par1" type="text" value={{par1}}>
+    </p>
+    <p>
+      <label>INTERVAL</label>
+      <input name="par2" type="text" value='5m'>
+    </p>
+    <p>
+      <label>LIMIT___</label>
+      <input name="par3" type="text" value={{par3}}>
+    </p>
+    <p>
+      <label>QNTY___</label>
+      <input name="par5" type="text" value={{par5}}>
+    </p>
+    <p>
+      <label>SPAN____</label>
+      <input name="par6" type="text" value={{par6}}>
+    </p>
+
+
+
+
+
+
+
+
+    <p>
+      <label>Run-1/Stop-0</label>
+      <input name="par4" type="text" value={{par4}}>
+    </p>
+    
+    <h4> ld {{ld}} ap {{ap}} ema {{ema}} pp {{pp}} !</h4>
+    
+    <input type="submit" value="Изменить и перезапустить">
+    
+  </form>
+  
+  <!-- <h3>Нажмите, чтобы перезапустить с новами параметрами</h3>
+  <form action="/process_data/" method="POST"> -->
+    <!-- скрытый параметр -->
+  <!--   <input type="hidden" name="index" value="1">
+    <input type="submit" class="btn btn-dark" value="Перезапустить">
+  </form>-->
+
+
+
+ </body>
+</html>
